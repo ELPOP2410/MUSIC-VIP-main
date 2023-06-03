@@ -48,7 +48,7 @@ from FallenMusic import app, pytgcalls
 
 from FallenMusic.Helpers import _clear_, admin_check, close_key
 
-@app.on_message(filters.command(["stop", "end"]) | filters.command(["ايقاف","قف","اخرس خالص "],prefixes= ["/", "!","","#"]) & filters.group)
+@app.on_message(filters.command(["stop", "end"]) | filters.command(["ايقاف","قف","اخرس خالص"],prefixes= ["/", "!","","#"]) & filters.group)
 
 @admin_check
 
